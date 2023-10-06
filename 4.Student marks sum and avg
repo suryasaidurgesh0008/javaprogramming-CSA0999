@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+class Student
+{
+public static void main(String args[])
+{
+int m,p,c,e,j,roll,total,avg;
+String name;
+Scanner s=new Scanner(System.in);
+System.out.println("enter the student name:");
+name=s.nextLine();
+System.out.println("enter register number:");
+roll=s.nextInt();
+System.out.println("eneter the maths marks:");
+m=s.nextInt();
+System.out.println("eneter the physics marks:");
+p=s.nextInt();
+System.out.println("eneter the chemistry marks:");
+c=s.nextInt();
+System.out.println("eneter the ethics marks:");
+e=s.nextInt();
+System.out.println("eneter the java marks:");
+j=s.nextInt();
+total=(m+p+c+e+j);
+avg=(total/5);
+System.out.println("Total  marks:"+total);
+System.out.println("Avg marks:"+avg);
+}
+}
